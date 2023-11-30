@@ -152,10 +152,10 @@ CART_SESSION_ID = 'cart'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # stripe settings
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51OFZu3KBakOyu2q3kpzR2Rf2eGMkn1rkwNuUKCTSamGITOQFR0Q8oANNtJSB8oEfr93LCyaUd1AwVGeAG0D1roLi00x5B5fg5s'
-STRIPE_SECRET_KEY = 'sk_test_51OFZu3KBakOyu2q3w5Q7u0UIdMP2RBYYb88KeWz4Iw0mea6vkKJ7eTojmNUQnNIlnTEIP9gxpMoaOh8proizEkXu00trElGNPK'
+STRIPE_PUBLISHABLE_KEY = 'stripe-pub-key'
+STRIPE_SECRET_KEY = 'stripe-secret-key'
 STRIPE_API_VERSION = '2022-08-01'
-STRIPE_WEBHOOK_SECRET = 'whsec_e803985d8d43412a05e46ba0dad93c060b3c054479421ad21aba30e9aa723664'
+STRIPE_WEBHOOK_SECRET = 'stripe-webhook-secret'
 
 # Redis settings
 REDIS_HOST = 'localhost'
