@@ -1,0 +1,1 @@
+# django-tea-shop
